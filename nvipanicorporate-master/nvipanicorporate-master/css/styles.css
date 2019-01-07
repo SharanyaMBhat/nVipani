@@ -1,0 +1,984 @@
+/*CSS for the nVipani Corporate Website -------
+----- 11-05-2018 -----------*/
+html,body{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    letter-spacing: 1px;
+    color: #252525;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body.hide{
+    height: 100%;
+    overflow: hidden;
+}
+/*========Global CSS starts here ========*/
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+}
+.nvc-wid-100{
+    width: 100% !important;
+}
+.nvc-height-100{
+    height: 100% !important;
+}
+.line-height-1-5{
+    line-height: 1.5;
+}
+.line-height-md-1-5{
+    line-height: 1.5;
+}
+.row{
+    margin-right: auto;
+    margin-left: auto;
+}
+.nvc-accent-background{
+    background: #e4e4e4;
+}
+.nvc-theme-color{
+    color: #091965;
+}
+.careers-container {
+    margin-top: -10rem;
+}
+.careers-bg {
+     z-index: -1;
+}
+.background-white {
+    background: #ffffff;
+}
+.about-us-page-collage .border-tint h6 {
+    font-size: 2vw;
+    padding: 1rem;
+}
+.black-tint {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%);
+     background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,1) 100%);
+     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,1) 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+ }
+.about-us-page-collage .border-tint {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(185,216,246,0) 31%, rgba(62,149,229,0.78) 85%, rgba(36,93,187,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(185,216,246,0) 31%,rgba(62,149,229,0.78) 85%,rgba(36,93,187,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(185,216,246,0) 31%,rgba(62,149,229,0.78) 85%,rgba(36,93,187,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#245dbb',GradientType=0 );
+}
+.color-white {
+    color: #ffffff;
+}
+.line-height-md-1-5 {
+    line-height: 1.5;
+}
+.nvc-section-divider{
+    width: 100%;
+    height: 10px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0c4cb4+50,3e95e5+50 */
+    background: #0c4cb4; /* Old browsers */
+    background: -moz-linear-gradient(left, #0c4cb4 50%, #3e95e5 50%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #0c4cb4 50%,#3e95e5 50%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #0c4cb4 50%,#3e95e5 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c4cb4', endColorstr='#3e95e5',GradientType=1 ); /* IE6-9 */
+}
+.about-us-content .heading {
+    font-size: 2rem;
+    font-weight: 900;
+    background: -webkit-gradient(linear, left top, right top, from(#0C4CB4), to(#3E95E5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    display: inline-block;
+}
+.mentor-img-link p {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #a5a5a5;
+    letter-spacing: 1px;
+}
+.mentor-img-link h6 {
+    margin-bottom: 0px;
+    display: block;
+    margin-top: 5px;
+}
+.gradient-to-right{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0c4cb4+0,3e95e5+100 */
+    background: #0c4cb4; /* Old browsers */
+    background: -moz-linear-gradient(left, #0c4cb4 0%, #3e95e5 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #0c4cb4 0%,#3e95e5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #0c4cb4 0%,#3e95e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c4cb4', endColorstr='#3e95e5',GradientType=1 ); /* IE6-9 */
+}
+.white-border-right{
+    border-right: 2px solid #ffffff;
+}
+.panel-column p{
+    line-height: 2;
+}
+.w-10{
+    width: 10% !important;
+}
+.flip{
+    -webkit-transform: rotateY(180deg) translateY(-50%) !important;
+    -moz-transform: rotateY(180deg) translateY(-50%) !important;
+    -ms-transform: rotateY(180deg) translateY(-50%) !important;
+    -o-transform: rotateY(180deg) translateY(-50%) !important;
+    transform: rotateY(180deg) translateY(-50%) !important;
+}
+.margin-top-3{
+    margin-bottom: -3rem;
+}
+.left-carousel .carousel-item h6{
+    padding-bottom: 0.8rem;
+    position: relative;
+    margin-bottom: 0.8rem;
+}
+.left-carousel .carousel-item h6:after{
+    content: '';
+    width: 25%;
+    height: 1px;
+    background: #e4e4e4;
+    position: absolute;;
+    bottom: 0;
+    left: 0;
+}
+.map-view{
+    min-height: 200px;
+}
+.white-space-no-wrap{
+    white-space: nowrap;
+}
+/*========Global CSS ends here ==========*/
+/*========Header CSS starts here ========*/
+.navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.nvc-header-image img{
+    height: 48px;
+    padding: 5px;
+}
+.nvc-nav-item{
+    padding: 15px 4%;
+}
+.nvc-nav-item a{
+    font-weight: 600 !important;
+    color: #ffffff !important;
+}
+.nvc-shape-pill{
+    -webkit-border-radius: 100rem;
+    -moz-border-radius: 100rem;
+    border-radius: 100rem;
+}
+.nvc-background-left,
+.nvc-background-right{
+    position: relative;
+}
+.nvc-background-left:before,
+.nvc-background-right:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, right bottom, from(#0C4CB4), to(#3E95E5));
+}
+.nvc-background-left:before{
+    left: 0;
+}
+.nvc-background-right:before{
+    right: 0;
+}
+.flex-1{
+    flex: 1;
+}
+.flex-8{
+    flex: 8;
+}
+.justify-content-space-evenly{
+    justify-content: space-evenly;
+}
+.justify-content-space-around{
+    justify-content: space-around;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.align-items-flex-end{
+    align-items: flex-end !important;
+}
+.panel-header{
+    font-size: 2rem;
+    font-weight: 900;
+    background:-webkit-gradient(linear, left top, right top, from(#0C4CB4), to(#3E95E5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.square-image{
+    padding: 35% 0;
+    position: relative;
+}
+.square-image img{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    height: 100%;
+    object-fit: contain;
+}
+/*========Header CSS Ends here =========*/
+/*======== Panel 1 CSS Goes here =======*/
+.nvc-panel1{
+    height: 100%;
+}
+.nvc-panel1 .heading{
+    font-size: 2rem;
+}
+.total-content{
+    height: 100%;
+    -webkit-transition: filter ease 0.4s;
+    -moz-transition: filter ease 0.4s;
+    -ms-transition: filter ease 0.4s;
+    -o-transition: filter ease 0.4s;
+    transition: filter ease 0.4s;
+}
+.total-content.toggled{
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+}
+.nvc-panel1-container{
+    height: 100%;
+}
+.nvc-panel1-container .btn{
+    color: #ffffff;
+    border: 4px solid #ffffff;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.nvc-panel1-continuation{
+    height:100%;
+    background: #ffffff;
+}
+.nvc-panel1-container .btn:hover{
+    background: none;
+    color: #0C4CB4;
+    border-color: #0C4CB4;
+}
+.nvc-panel1-continuation .btn{
+    color: #ffffff;
+    font-weight: 600;
+    padding: .35rem 5rem;
+}
+/*======== Panel 1 CSS ends here =======*/
+/*======== Panel 2 CSS goes here =======*/
+.nvc-panel2{
+    height: 75%;
+}
+.nvc-panel2 .content{
+    height: 100%;
+}
+.text-xs-justify{
+    text-align: justify;
+}
+/*======== Panel 2 CSS ends here =======*/
+/*======== panel 2 timeline css starts here ===*/
+.timeline-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+.timeline-header:before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #252525;
+    position: absolute;
+    top: 50%;
+    z-index: 0;
+}
+.timeline-header .item {
+    background: #fff;
+    z-index: 1;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    -webkit-transition: all ease-in 0.3s;
+    -moz-transition: all ease-in 0.3s;
+    -ms-transition: all ease-in 0.3s;
+    -o-transition: all ease-in 0.3s;
+    transition: all ease-in 0.3s;
+}
+.timeline-header .item.active{
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.timeline-header .item:after{
+    width: 90%;
+    height: 90%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid #252525;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all ease-in 0.3s;
+    -moz-transition: all ease-in 0.3s;
+    -ms-transition: all ease-in 0.3s;
+    -o-transition: all ease-in 0.3s;
+    transition: all ease-in 0.3s;
+}
+.timeline-header .item.active:after{
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+.timeline-header .item img{
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid #252525;
+}
+.timeline-header .item.active img{
+    border: 2px solid #3e95e5;
+}
+.timeline-header .item.active:after{
+    border-right-color: #3e95e5;
+    border-left-color: #3e95e5;
+}
+.timeline-container .item{
+    display: none;
+    opacity: 0;
+}
+.timeline-container .item.active{
+    display: block;
+    opacity: 1;
+}
+/*======== panel 2 timeline css ends here =====*/
+/*======== Panel 3 CSS goes here =======*/
+.nvc-panel3{
+    height: 75%;
+}
+/*======== Panel 3 css ends here =======*/
+/*======== Panel 4 CSS goes here =======*/
+.nvc-panel4{
+    height: 75%;
+    background: #ffffff;
+}
+/*======== Panel 4 CSS ends here =======*/
+/*======== Carousel panel css goes here ==*/
+.carousel-panel{
+    overflow: hidden;
+}
+.carousel-panel .carousel-item img{
+    width: 90%;
+    margin-left: auto;
+    display: block;
+}
+.controls div{
+    cursor: pointer;
+}
+.carousel-panel-continuation{
+    color: #ffffff;
+}
+.carousel-panel-continuation a{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.carousel-panel-continuation .btn{
+    background: #ffffff;
+}
+/*======== Panel 5 CSS goes here =======*/
+.nvc-panel5 p{
+    line-height: 2;
+}
+.nvc-panel5 .carousel-inner .carousel-item{
+    padding: 0 5rem;
+}
+.nvc-panel5 .carousel-inner .carousel-item img{
+    padding: 0 2rem;
+    margin: 0;
+    width: 100%;
+}
+/*======== Panel 5 CSS ends here =======*/
+/*======== Panel 6 CSS starts here =====*/
+.nvc-panel6{
+    color: #ffffff;
+    background: linear-gradient(to right, #0483fc, #091965);
+    background: -webkit-linear-gradient(to right, #0483fc, #091965);
+    background: -o-linear-gradient(to right, #0483fc, #091965);
+    background: -moz-linear-gradient(to right, #0483fc, #091965);
+    background: -ms-linear-gradient(to right, #0483fc, #091965);
+}
+.nvc-panel6 .container-fluid{
+    background: #ffffff;
+    color: #000;
+}
+/*======== Panel 6 CSS Ends here =======*/
+/*======== Custom carousel css here ====*/
+.custom-carousel .carousel-indicators{
+    bottom: -10px;
+    height: 12px;
+    align-items: center;
+}
+.custom-carousel .carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    background: #e4e4e4;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+}
+.custom-carousel .carousel-indicators li.active{
+    width: 12px;
+    height: 12px;
+    background: #0c4cb4;
+    -webkit-box-shadow: 0 0 10px 0 #3e95e5;
+    -moz-box-shadow: 0 0 10px 0 #3e95e5;
+    box-shadow: 0 0 10px 0 #3e95e5;
+}
+.custom-carousel .carousel-control-next-icon,
+.custom-carousel .carousel-control-prev-icon{
+    width: 60px;
+    height: 35%;
+    background: none;
+}
+.detailview-carousel .carousel-item{
+    opacity: 0;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+.detailview-carousel .carousel-item.active,
+.detailview-carousel .carousel-item.carousel-item-next,
+.detailview-carousel .carousel-item.carousel-item-prev{
+    opacity: 1;
+}
+/*======== custom carousel css ends ====*/
+/*======== contact us panel css goes here ====*/
+.panel-contact-us{
+    color: #ffffff;
+}
+.panel-contact-us p{
+    font-size: 0.8rem;
+    margin-bottom: 2px;
+}
+.address-icon{
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+.address-icon .fill {
+    fill: #ffffff;
+}
+/*======== contact us panel css ends here ====*/
+/*.nvc-panel7 p{
+    font-size: 0.9em;
+    line-height: 2;
+}*/
+.nvc-panel7 .w-50{
+    width: 70% !important;
+}
+/*======== ham menu css starts here =====*/
+.ham-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.ham-menu ul{
+    list-style: none;
+    padding: 20px 30px 30px 20px;
+}
+.ham-menu ul li{
+    width: 20px;
+    height: 2px;
+    background: #252525;
+    -webkit-transition: all ease-in 0.2s;
+    -moz-transition: all ease-in 0.2s;
+    -ms-transition: all ease-in 0.2s;
+    -o-transition: all ease-in 0.2s;
+    transition: all ease-in 0.2s;
+}
+.ham-menu ul li.menu-bar-1{
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+.ham-menu ul li.menu-bar-2{
+    -webkit-transform: translateY(3px) translateZ(0);
+    -moz-transform: translateY(3px) translateZ(0);
+    -ms-transform: translateY(3px) translateZ(0);
+    -o-transform: translateY(3px) translateZ(0);
+    transform: translateY(3px) translateZ(0);
+}
+.ham-menu ul li.menu-bar-3{
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    transform: translateY(10px);
+}
+.ham-menu.toggled ul li.menu-bar-1{
+    -webkit-transform: rotate(45deg) translate(1px, 1px);
+    -moz-transform: rotate(45deg) translate(1px, 1px);
+    -ms-transform: rotate(45deg) translate(1px, 1px);
+    -o-transform: rotate(45deg) translate(1px, 1px);
+    transform: rotate(45deg) translate(1px, 1px);
+}
+.ham-menu.toggled ul li.menu-bar-2{
+    -webkit-transform: rotate(-45deg) translateZ(0);
+    -moz-transform: rotate(-45deg) translateZ(0);
+    -ms-transform: rotate(-45deg) translateZ(0);
+    -o-transform: rotate(-45deg) translateZ(0);
+    transform: rotate(-45deg) translateZ(0);
+}
+.ham-menu.toggled ul li.menu-bar-3{
+    width: 0;
+}
+.xs-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    transition: all linear 0.4s;
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+.xs-menu.toggled{
+    opacity: 0.8;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+.brand-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 10px auto;
+    width: 30%;
+    z-index: 4;
+}
+.xs-menu .list-group{
+    width: 40%;
+    margin: auto;
+}
+.xs-menu .list-group li{
+    color: #252525;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+/*===== menu css here ====*/
+.md-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    background: #fff;
+    z-index: 20;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+}
+.md-menu .logo img{
+    width: 8rem;
+}
+.md-menu.toggled{
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.md-menu .menu-content .selected{
+    color: red;
+}
+.md-menu .menu-content a{
+    color: #252525;
+    padding: 0 0.6rem;
+    font-size: 0.9rem;
+    position: relative;
+}
+.md-menu .menu-content a:hover{
+    text-decoration: none;
+}
+.md-menu .menu-content a:after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #3e95e5;
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transition: width ease-in-out 0.2s;
+    -moz-transition: width ease-in-out 0.2s;
+    -ms-transition: width ease-in-out 0.2s;
+    -o-transition: width ease-in-out 0.2s;
+    transition: width ease-in-out 0.2s;
+}
+.md-menu .menu-content a:hover:after{
+    width: 90%;
+}
+/*========= team panel css goes here ======*/
+.nvc-team-panel{
+    position: relative;
+}
+.nvc-image-overlay{
+    position: absolute;;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0c4cb4+0,3e95e5+100&0+41,1+100 */
+    background: -moz-linear-gradient(top, rgba(12,76,180,0) 0%, rgba(33,106,200,0) 41%, rgba(62,149,229,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(12,76,180,0) 0%,rgba(33,106,200,0) 41%,rgba(62,149,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(12,76,180,0) 0%,rgba(33,106,200,0) 41%,rgba(62,149,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000c4cb4', endColorstr='#3e95e5',GradientType=0 ); /* IE6-9 */
+}
+.nvc-image-overlay div{
+    color: #ffffff;
+}
+.nvc-image-overlay div h1{
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+/*========= team panel css ends here =====*/
+/*========= footer css starts here =====*/
+.footer .logo img{
+    width: 8rem;
+    margin: auto;
+    display: block;
+}
+.footer .brand a{
+    padding: 0 0.4rem;
+}
+.footer .brand a{
+    border: 2px solid #252525;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin: 0 0.4rem;
+    padding: 0;
+}
+.footer .brand img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    -o-object-fit: contain;
+    padding: 6px;
+}
+.footer .signature h6{
+    font-size: 0.6rem;
+    font-family: monospace;
+}
+/*========= footer css ends here =======*/
+/*======== progress bar css goes here ====*/
+.overlay{
+    position:fixed;
+    z-index:99999;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background:rgba(0,0,0,0.9);
+    -webkit-transition: 1s 0.4s;
+    -moz-transition: 1s 0.4s;
+    -ms-transition: 1s 0.4s;
+    -o-transition: 1s 0.4s;
+    transition: 1s 0.4s;
+}
+.progress-line{
+    height:1px;
+    background:#fff;
+    position:absolute;
+    width:0;
+    top:50%;
+}
+.progress-stats,
+.load-text{
+    font-size:0.7em;
+    letter-spacing: 3px;
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#fff;
+}
+.progress-stats{
+    margin-top:-60px;
+}
+.load-text{
+    margin-top: -40px;
+}
+/*======== progress bar css ends here ====*/
+/*============ css code to offset the anchor tag linking hash location to header offset=======*/
+:target {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+/*========== end of css code for anchor tag linking hash location to header offset =======*/
+/*======== Media queries goes here =====*/
+@media (max-width: 576px) {
+    html,body{
+        font-size: 14px;
+        height: auto;
+    }
+    .nvc-news-list p {
+        font-size: 11px;
+    }
+    .nvc-background-right:before,
+    .nvc-background-left:before{
+        width: 50%;
+        z-index: -1;
+    }
+    .panel-header{
+        font-size: 1.4rem;
+    }
+    .nvc-panel1{
+        background-image: none;
+    }
+    .nvc-panel2,
+    .nvc-panel3,
+    .nvc-panel4{
+        height: auto;
+    }
+    .panel-header{
+        color: #000;
+        background: none;
+        -webkit-text-fill-color: #000000;
+    }
+    .panel-subheader{
+        font-size: 1.2rem;
+    }
+    .nvc-section-divider{
+        height: 7px;
+    }
+    .nvc-section-divider-xs{
+        width: 30%;
+        height: 1px;
+        background: #e4e4e4;
+        display: block;
+        margin: auto;
+    }
+    .carousel-panel-continuation h2{
+        font-size: 1.6rem;
+    }
+    .nvc-panel1-continuation img.w-10{
+        width: 70% !important;
+        padding: 0.5rem;
+    }
+    .nvc-panel1-continuation img.w-25{
+        width: 50% !important;
+    }
+    .nvc-panel1-continuation .content h6{
+        font-weight: 600;
+    }
+    .line-height-md-1-5{
+        line-height: 1;
+    }
+    .nvc-panel1 .heading{
+        font-size: 1.3rem;
+    }
+    .footer .brand a{
+        border-width: 1px;
+    }
+    .footer .brand img{
+        width: 20px;
+        height: 20px;
+        padding: 4px;
+    }
+    .white-border-right.border-xs-none{
+        border-right: none;
+    }
+    .border-bottom-xs-white{
+        border-bottom: 2px solid #ffffff;
+    }
+    .nvc-panel5 .carousel-inner .carousel-item{
+        padding: 0 2rem;
+    }
+    .nvc-panel5 .carousel-inner .carousel-item img{
+        width: 75%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .nvc-image-overlay div h1{
+        font-size: 2.5rem;
+    }
+    :target {
+        top: 0;
+    }
+}
+@media (min-width: 700px) {
+    .nvc-news-list p {
+        font-size: 9px;
+    }
+}
+@media (min-width: 1024px) {
+    .nvc-news-list p {
+        font-size: 9px;
+    }
+}
+@media (min-width: 1200px) {
+    .nvc-news-list p {
+        font-size: 11px;
+    }
+}
+@media (min-width: 1400px) {
+    .nvc-news-list p {
+        font-size: 11px;
+    }
+}
+.av{
+    color: blue!important;
+}
+.nvc-playerCards img {
+    height: 350px;
+    width: 100%;
+    background-size: contain;
+}
+.nvc-playerCards:hover{
+    box-shadow: 0px 0px 100px #a0a0a0;
+}
+/*news*/
+.nvc-news-banner {
+    height: 130px;
+    background-position: center;
+    background-image: url(../img/team-small.jpg),linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(47, 47, 47, 0.16) 30%,rgba(0,0,0,1) 100%);
+    background-size: cover;
+    margin-bottom: 40px;
+    background-blend-mode: color;
+}
+.nvc-heading-underline {
+    border: 2px solid;
+    width: 20%;
+}
+.containernew h2 {
+    color: #fff;
+    padding: 35px;
+}
+.containernew {
+    width: 90%;
+    margin: auto;
+}
+.containernew img {
+    height: 108px;
+    object-position: center;
+    width: 100%;
+}
+.nvc-news-list {
+    box-shadow: 0px 0px 6px #8888888a;
+    height: 113px;
+}
+
+.verticalline {
+    border-left: 1px solid #ccc;
+    height: 500px;
+}
+.nvc-gray-color{
+    color: #868686;
+}
+.brand img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    -o-object-fit: contain;
+    padding: 6px;
+}
+.nvc-scroll-list{
+    height: 490px;
+    overflow-y: scroll;
+    border: none !important;
+}
+.nvc-text-height{
+    height: 400px;
+    overflow-y: scroll;
+}
+.nvc-newlist-sidebar {
+    height: 500px;
+    overflow-y: scroll;
+}
+:target{
+    visibility: visible;
+}
+.fade.in{
+    opacity: 1;
+}
+.nvc-playerCards{
+    -webkit-transition: all 700ms ease;
+}
+/*news*/

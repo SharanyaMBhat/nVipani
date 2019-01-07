@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nVipani - 360° Track & Trace SC ECO System.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Description" content="an advanced blockchain product for your supplychain, traceability that works" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="keywords" content="blockchain, supplychain, advanced, trustable,nVipani, b2b, product" />
+    <link rel="icon" type="image/png" href="img/nvipani_favicon.ico" sizes="32x32">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/aboutus/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!------ Font ---->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" rel="stylesheet">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#3e95e5">
+    <!------- startup icon------->
+    <link rel="apple-touch-startup-image" href="img/vipani_logo.png">
+</head>
+<body>
+<!-------------- loader section --------->
+<div id="overlay" class="overlay">
+    <div id="progstat" class="progress-stats"></div>
+    <div id="loadText" class="load-text"></div>
+    <div id="progress" class="progress-line"></div>
+</div>
+<!------------ loader section ends here -------->
+<!----------- menu for mobile view code is here -------->
+<div class="d-block d-md-none about-us-menu">
+    <div class="ham-menu" id="hamMenu">
+        <ul>
+            <li class="menu-bar-1"></li>
+            <li class="menu-bar-2"></li>
+            <li class="menu-bar-3"></li>
+        </ul>
+    </div>
+    <div class="brand-logo">
+        <a href="index.html"><img src="img/vipani_logo.png" alt="logo" class="nvc-wid-100"></a>
+    </div>
+    <div class="xs-menu" id="xsMenu">
+        <ul class="list-group list-group-flush mt-5 pt-5 text-center" id="menuList">
+            <li class="list-group-item" href="index.html">Home</li>
+            <li class="list-group-item" href="index.html#products">Product</li>
+            <li class="list-group-item" href="aboutus.html">About Us</li>
+            <li class="list-group-item" href="index.html#testimonials">Testimonials</li>
+            <li class="list-group-item" href="careers.html">Careers</li>
+            <li class="list-group-item" href="#">News</li>
+            <li class="list-group-item" href="index.html#contact">Contact us</li>
+        </ul>
+    </div>
+</div>
+<!--------- mobile menu ends here --------->
+<!--------- desktop menu starts here ----------->
+<div class="nvc-nav d-none d-md-flex md-menu row align-items-center justify-content-space-between about-us-menu" id="mdMenu">
+    <div class="logo col-3 ml-4 pl-4 pt-3 pb-3">
+        <a href="index.html#"><img src="img/vipani_logo.png" alt="logo"></a>
+    </div>
+    <div class="menu-content" id="mainMenu">
+        <a href="index.html#products">Product</a>
+        <a href="aboutus.html">About us</a>
+        <a href="index.html#testimonials">Testimonials</a>
+        <a href="careers.html">Careers</a>
+        <a href="#">News</a>
+        <a href="index.html#contact">Contact us</a>
+    </div>
+</div>
+<!--------- desktop menu ends here ----------->
+
+
+<!---->
+<div class="containernew d-none d-sm-block">
+    <div class="nvc-news-banner position-relative">
+        <h2 class="color-white font-weight-bold">News</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-3 nav nav-tabs nvc-newlist-sidebar">
+            <h4 class="font-weight-bold col-md-12 mt-3 m-0 pl-0">Latest news:</h4>
+            <hr class="nvc-heading-underline  ml-0"></hr>
+            <a href="news_new_hire_Kondaiah.html" target="_blank"><div class="row mb-3 nvc-news-list">
+                <div class="col-md-5 pl-0">
+                    <img src="img/aboutus/konds_Profile.JPG" alt="news" class="img-thumbnail">
+                </div>
+                <div class="col-md-7 pl-0">
+                    <p class="mb-0">nVipani welcomes Kondaiah Bommisetty as CTO</p>
+                    <p class="mb-0 mt-3"><small>November 15, 2018</small></p>
+                </div>
+            </div>
+            </a>
+
+            <a href="news_new_hire_Venkat.html" target="_blank"> <div class="row mb-3 nvc-news-list">
+                <div class="col-md-5 pl-0">
+                    <img src="img/aboutus/Venkat Latest 500X500.png" alt="news" class="img-thumbnail">
+                </div>
+                <div class="col-md-7 pl-0">
+                    <p class="mb-0">nVipani welcomes Venkat Reddy Chintalapudi as Product VP</p>
+                    <p class="mb-0 mt-3"><small> November 15, 2018</small></p>
+                </div>
+            </div></a>
+
+            <a href="#"> <div class="row mb-3 nvc-news-list">
+                <div class="col-md-5 pl-0">
+                    <img src="img/vipani_logo.png" alt="news" class="img-thumbnail">
+                </div>
+                <div class="col-md-7 pl-0">
+                    <p class="mb-0">Bengaluru-based startup nVipani announces new office location in New Tippasandra</p>
+                    <p class="mb-0 mt-3"><small>October 30, 2018</small></p>
+                </div>
+            </div>
+            </a>
+            <a href="news_RISE_conference.html" target="_blank"> <div class="row mb-3 nvc-news-list">
+                <div class="col-md-5 pl-0">
+                    <img src="img/aboutus/rise.png" alt="news" class="img-thumbnail">
+                </div>
+                <div class="col-md-7 pl-0">
+                    <p class="mb-0">Bengaluru-based startup nVipani brings valUchain™ to RISE 2018.</p>
+                    <p class="mb-0 mt-3"><small>June 27, 2018</small></p>
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="verticalline ml-3 mr-3"></div>
+        <div class="col-md-8">
+            <div class="row mb-4">
+                <h3 class="font-weight-bold col-md-10 mt-3 mt-md-0 pl-0 nvc-gray-color pull-left">Bengaluru-based startup nVipani announces new office location in New Tippasandra
+                </h3>
+                <div class="brand col-md-2 justify-content-md-end justify-content-center d-flex order-0 order-md-1 pt-3 pt-md-0 pull-right">
+                    <a href="https://www.facebook.com/sharer.php?u=http://www.nvipani.com/news_new_office.html" target="_blank">
+                        <img src="img/facebook-letter-logo.svg" alt="facebook">
+                    </a>
+                    <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.nvipani.com/news_new_office.html" target="_blank">
+                        <img src="img/linkedin-logo.svg" alt="linkedin">
+                    </a>
+                    <a href="http://twitter.com/share?url=https://www.nvipani.com/news_new_office.html" target="_blank"><img src="img/twitter-logo.svg" alt="twitter"></a>
+                </div>
+            </div>
+            <div class="">
+                <div class="nvc-text-height">
+                    <p>Bengaluru, October 30, 2018: Dilli Babu N, the CEO and founder of Bengaluru-based startup nVipani, announces the opening of its new office in New Tippasandra. The new location will be called nVipani Labs. The inauguration will be held at 9:00 AM, 31st October 2018. Shri Charan Reddy IPS, Additional Director General of Police will be the chief guest and will inaugurate the new premises by lighting the lamp. The new facility will feature an open floor plan design, floor to ceiling windows, and collaborative workspaces.
+                    </p>
+                    <p>“I am delighted to announce the opening of nVipani's new facility. Moving to a bigger and better office is in alignment with our expansion plans to support our rapidly expanding team. We have doubled our strength in the last year, and this new office will accommodate more talent and bring in novel techniques in improving the overall efficiency and productivity.  It is my vision to develop a smart supply chain management solution that is ubiquitous, traceable, affordable and easy to use.  This move to a new facility is a step towards taking my vision to reality sooner,” says Dilli Babu. Dilli Babu dreams to connect the most remote, rural production units to the global market with his company products.
+                    </p>
+                    <p>The new office follows the opening of nVipani’s first overseas location in the US, and the launch of valUchain™, nVipani’s cloud-based, Blockchain and IoT-enabled smart supply chain management (SCM) solution. ‘Mana Kuragayalu Project’ (MKP), the Telangana government initiative to bring farm-fresh vegetables, and fruit to every urban home will be powered by valUchain™.
+                    </p>
+                    <p>Hema Reddy, the CTO and co-founder of nVipani is very enthusiastic about the new location. She said “The best thing about this move is knowing that it is all because of the hard work and pure grit this team has put into our little company. This move will improve the morale and confidence of the team. We all feel more responsible and want to prove to ourselves that we can all do much better in the coming months and years.”
+                    </p>
+                    <p>nVipani Technology Solutions Private Limited was founded in 2015 by Dilli Babu Nandarapu and Hema Reddy. Dilli Babu Nandarapu earlier co-founded and played a key role in engineering solutions at Athena Network Security Solutions Private Limited, which was acquired by SolarWinds in 2013. Hema Reddy was a product lead at Athena Network Security Solutions and has over 12 years of experience in the industry. To know more about the company and its products, visit <a href="http://www.nvipani.com/" target="_blank"> www.nvipani.com </a>and <a href="http://valuchain.in/#!/register" target="_blank">www.valuchain.in. </a>
+                    </p>
+                    <p class="text-center">Contact nVipani at  <a href="mailto:info@nvipani.com">info@nvipani.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!---->
+<!---->
+<div class="containernew d-block d-md-none d-lg-none">
+    <div class="nvc-news-banner position-relative">
+        <h2 class="color-white font-weight-bold">News</h2>
+    </div>
+ <!--       <div id="home" class="tab-pane fade in active">
+            <h3 class="font-weight-bold col-md-10 mt-3 pt-0 mt-md-0 pl-0 nvc-gray-color pull-left">nVipani welcomes Kondaiah Bommisetty as CTO</h3>
+            <p>Bengaluru, November 15, 2018: nVipani is proud to announce and welcome Kondaiah Bommisetty Chief Technology Officer. Kondaiah will lead all aspects of the company’s technological development, help establish the company’s technical vision and technology roadmap, and make determinations on the probability of implementation by analyzing leading-edge technologies.
+            </p>
+            <p>
+                Kondaiah joins the nVipani team after 13 years at Manhattan Associates. Manhattan Associates is a leading provider of supply chain management solutions. He has more than 12 years of experience in omnichannel order management software engineering and implementations. He has 18 Years of software engineering and management experience. Kondaiah holds a Bachelor of Technology degree from Sri Venkateswara University College of Engineering, Tirupati, India.
+            </p>
+            <p>This appointment follows the opening nVipani’s new office, incorporating nVipani’s first overseas location in the US, and the launch of valUchain™, nVipani’s cloud-based, Blockchain and IoT-enabled smart supply chain management (SCM) solution.</p>
+            <p>Kondaiah says "I am thrilled to be part of the nVipani team. My entire career has been spent in the SCM industry and I look forward to continuing that tradition by providing "best of the breed" SCM solutions to nVipani’s current and future customers."</p>
+            <p>Dilli Babu, the CEO and founder of nVipani is excited about the new addition to his team. He said “Everyone at nVipani is looking forward to working with an industry veteran like Kondaiah. Not only will he bring a tighter focus our technical roadmap, but also be a great role model for our employees who come into contact with him. His deep and diverse background in Supply Chain Management and technology.”
+            </p>
+            <p>nVipani Technology Solutions Private Limited was founded in 2015 by Dilli Babu Nandarapu and Hema Reddy. nVipani is a startup that wants to make supply chain management ubiquitous, affordable, and easy to use. nVipani wants to remove blind spots in the supply chain, connect even the most remote, rural production units to the global market, and achieve maximum efficiency at all levels in the supply chain. nVipani’s product, valUchain™ takes supply chain traceability to the next level. To know more about the company and its products, visit<a href="http://www.nvipani.com/" target="_blank"> www.nvipani.com </a>and <a href="http://valuchain.in/#!/register" target="_blank">www.valuchain.in. </a> </p>
+            <p class="text-center">Contact nVipani at  <a href="mailto:info@nvipani.com">info@nvipani.com</a></p>
+            <div class="brand ustify-content-md-end justify-content-center d-flex order-0 order-md-1 pt-3 pt-md-0 pull-right">
+                <a href="https://www.facebook.com/sharer.php?u=http://www.nvipani.com/aboutus.html" target="_blank">
+                    <img src="img/facebook-letter-logo.svg" alt="facebook">
+                </a>
+                <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.nvipani.com/aboutus.html" target="_blank">
+                    <img src="img/linkedin-logo.svg" alt="linkedin">
+                </a>
+                <a href="http://twitter.com/share?url=https://www.nvipani.com/aboutus.html" target="_blank">
+                    <img src="img/twitter-logo.svg" alt="twitter">
+                </a>
+            </div>
+        </div>-->
+<!--        <div id="menu1" class="tab-pane fade">
+            <h3 class="font-weight-bold col-md-10 mt-3 pt-0 mt-md-0 pl-0 nvc-gray-color pull-left">nVipani welcomes Venkat Reddy Chintalapudi as Product VP</h3>
+            <p>Bengaluru, November 15, 2018: nVipani is proud to announce and welcome Venkat Reddy Chintalapudi as Vice President - Product Management. Venkat will helm the company’s product development and solution delivery to customers and help establish the product vision and product roadmap.</p>
+            <p>Venkat comes to nVipani with over 18 years of experience in various startups and management roles in building enterprise business automation software that covers BPM, BRM, SCM, CRM & ERP.  He founded Habitech Software Solutions and worked at SAP, YASU Technologies & Versata in various Product Management and Software Engineering roles. Venkat holds a Masters Degree in Computer Science from University of Hyderabad, Hyderabad, India and a Bachelor of Science degree in Mathematics from Acharya Nagarjuna University.
+            </p>
+            <p>This appointment follows the opening nVipani’s new office, incorporating nVipani’s first overseas location in the US, and the launch of valUchain™, nVipani’s cloud-based, Blockchain and IoT-enabled smart supply chain management (SCM) solution. The appointment is part of nVipani’s plans to step up product development and quality. </p>
+            <p>Venkat said, “I am honoured to be part of such an innovative group of people. The atmosphere is very exciting and upbeat. Great things are happening at nVipani. The product has a lot of potential and the company is on the brim of greatness. nVipani’s commitment to reducing losses in the supply chain is in alignment with my vision for a smart SCM solution.”</p>
+            <p>Dilli Babu, the CEO and founder of nVipani is thrilled about the new addition to his team. He said “ We are delighted to welcome Venkat into the nVipani family. Venkat’s commitment to the highest standards of product development and business practices makes him an ideal fit for nVipani.  ”</p>
+            <p>nVipani Technology Solutions Private Limited was founded in 2015 by Dilli Babu Nandarapu and Hema Reddy. nVipani is a startup that wants to make supply chain management ubiquitous, affordable, and easy to use. nVipani wants to remove blind spots in the supply chain, connect even the most remote, rural production units to the global market, and achieve maximum efficiency at all levels in the supply chain. nVipani’s product, valUchain™ takes supply chain traceability to the next level. To know more about the company and its products, visit
+                <a href="http://www.nvipani.com/" target="_blank"> www.nvipani.com </a>and <a href="http://valuchain.in/#!/register" target="_blank">www.valuchain.in. </a></p><p class="text-center">Contact nVipani at  <a href="mailto:info@nvipani.com">info@nvipani.com</a></p>
+            <div class="brand justify-content-md-end justify-content-center d-flex order-0 order-md-1 pt-3 pt-md-0 pull-right">
+                <a href="https://www.facebook.com/sharer.php?u=http://www.nvipani.com/aboutus.html" target="_blank">
+                    <img src="img/facebook-letter-logo.svg" alt="facebook">
+                </a>
+                <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.nvipani.com/aboutus.html" target="_blank">
+                    <img src="img/linkedin-logo.svg" alt="linkedin">
+                </a>
+                <a href="http://twitter.com/share?url=https://www.nvipani.com/aboutus.html" target="_blank">
+                    <img src="img/twitter-logo.svg" alt="twitter">
+                </a>
+            </div>
+        </div>-->
+        <div>
+            <h3 class="font-weight-bold col-md-10 mt-3 pt-0 mt-md-0 pl-0 nvc-gray-color pull-left">Bengaluru-based startup nVipani announces new office location in New Tippasandra</h3>
+            <p>Bengaluru, October 30, 2018: Dilli Babu N, the CEO and founder of Bengaluru-based startup nVipani, announces the opening of its new office in New Tippasandra. The new location will be called nVipani Labs. The inauguration will be held at 9:00 AM, 31st October 2018. Shri Charan Reddy IPS, Additional Director General of Police will be the chief guest and will inaugurate the new premises by lighting the lamp. The new facility will feature an open floor plan design, floor to ceiling windows, and collaborative workspaces.
+            </p>
+            <p>“I am delighted to announce the opening of nVipani's new facility. Moving to a bigger and better office is in alignment with our expansion plans to support our rapidly expanding team. We have doubled our strength in the last year, and this new office will accommodate more talent and bring in novel techniques in improving the overall efficiency and productivity.  It is my vision to develop a smart supply chain management solution that is ubiquitous, traceable, affordable and easy to use.  This move to a new facility is a step towards taking my vision to reality sooner,” says Dilli Babu. Dilli Babu dreams to connect the most remote, rural production units to the global market with his company products.
+            </p>
+            <p>The new office follows the opening of nVipani’s first overseas location in the US, and the launch of valUchain™, nVipani’s cloud-based, Blockchain and IoT-enabled smart supply chain management (SCM) solution. ‘Mana Kuragayalu Project’ (MKP), the Telangana government initiative to bring farm-fresh vegetables, and fruit to every urban home will be powered by valUchain™.
+            </p>
+            <p>Hema Reddy, the CTO and co-founder of nVipani is very enthusiastic about the new location. She said “The best thing about this move is knowing that it is all because of the hard work and pure grit this team has put into our little company. This move will improve the morale and confidence of the team. We all feel more responsible and want to prove to ourselves that we can all do much better in the coming months and years.”
+            </p>
+            <p>nVipani Technology Solutions Private Limited was founded in 2015 by Dilli Babu Nandarapu and Hema Reddy. Dilli Babu Nandarapu earlier co-founded and played a key role in engineering solutions at Athena Network Security Solutions Private Limited, which was acquired by SolarWinds in 2013. Hema Reddy was a product lead at Athena Network Security Solutions and has over 12 years of experience in the industry. To know more about the company and its products, visit <a href="http://www.nvipani.com/" target="_blank"> www.nvipani.com </a>and <a href="http://valuchain.in/#!/register" target="_blank">www.valuchain.in. </a>
+            </p>
+            <p class="text-center">Contact nVipani at  <a href="mailto:info@nvipani.com">info@nvipani.com</a></p>
+            <div class="brand justify-content-md-end justify-content-center d-flex order-0 order-md-1 pt-3 pt-md-0 pull-right">
+                <a href="https://www.facebook.com/sharer.php?u=http://www.nvipani.com/news_new_office.html">
+                    <img src="img/facebook-letter-logo.svg" alt="facebook">
+                </a>
+                <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.nvipani.com/news_new_office.html">
+                    <img src="img/linkedin-logo.svg" alt="linkedin">
+                </a>
+                <a href="http://twitter.com/share?url=https://www.nvipani.com/news_new_office.html">
+                    <img src="img/twitter-logo.svg" alt="twitter">
+                </a>
+            </div>
+        </div>
+      <!--  <div id="menu3" class="tab-pane fade">
+            <h3 class="font-weight-bold col-md-10 mt-3 pt-0 mt-md-0 pl-0 nvc-gray-color pull-left">Bengaluru-based startup nVipani brings valUchain™ to RISE 2018.</h3>
+            <p>Bengaluru, June 27, 2018: Bengaluru-based startup nVipani brings valUchain™, its cloud-based, blockchain and IoT-enabled smart supply chain management (SCM) solution to RISE 2018.A truly global SCM, valUchain™ combines logistics, inventory, warehouse, and order management in an affordable, easy-to-use solution for agricultural and food processing, FMCG, manufacturing, pharma, and other industrial and business sectors.
+            </p>
+            <p>Integrating a B2B marketplace and a universal product catalogue in standard (HSN/SAC) formats, valUchain™ simplifies product recalls and provides end-to-end, forward and backward traceability. Besides offering all standard SCM features and services, valUchain™ is specifically designed to provide comprehensive protection against counterfeiting, pilferage, and supply chain fraud.</p>
+            <p>“I want to make smart SCM ubiquitous, affordable, and easy to use,” says  Dilli Babu Nandarapu, the CEO and founder of nVipani. His vision is to connect the most remote, rural production units to the global market.  “The global counterfeiting market robs legitimate industry of 1.2 trillion USD in 2018. This figure is poised to reach 1.82 trillion USD by 2020,” he said, adding, “Our valUchain™ can prevent counterfeiting with end-to-end traceability in the supply chain. By accounting for every unit via blockchain, we enable all stakeholders in the supply chain to ensure the authenticity and provenance of all products they sell or buy.”</p>
+            <p>Mane Kuragayalu Project (MKP), the Telangana government initiative to bring farm-fresh vegetables and fruit to every urban home will be powered by valUchain™. Initiated as a pilot program by Telangana state government, MKP will link farmers and their fresh produce to the market via a short supply chain.</p>
+            <p>Hema Reddy, the CTO and co-founder of nVipani points out that valUchain™ is easy to customize and localize. “Our unique architecture and supply chain model makes it easy to customize valUchain™ to manage any type of product or service. Employing GS1 and other international business standards, it is ready for international trade.”</p>
+            <p>nVipani Technology Solutions Private Limited was founded in 2015 by Dilli Babu Nandarapu and Hema Reddy. Dilli Babu Nandarapu earlier co-founded and played a key role in engineering solutions at Athena Network Security Solutions Private Limited, which was acquired by SolarWinds in 2013. Hema Reddy was a product lead at Athena Network Security Solutions and has over 12 years of experience in the industry. To know more about the company and its products, visit <a href="http://www.nvipani.com/" target="_blank"> www.nvipani.com </a>and <a href="http://valuchain.in/#!/register" target="_blank">www.valuchain.in. </a>
+            </p>
+            <p class="text-center">Contact nVipani at  <a href="mailto:info@nvipani.com">info@nvipani.com</a></p>
+            <div class="brand justify-content-md-end justify-content-center d-flex order-0 order-md-1 pt-3 pt-md-0 pull-right">
+                <a href="https://www.facebook.com/sharer.php?u=http://www.nvipani.com/aboutus.html" target="_blank">
+                    <img src="img/facebook-letter-logo.svg" alt="facebook">
+                </a>
+                <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.nvipani.com/aboutus.html" target="_blank">
+                    <img src="img/linkedin-logo.svg" alt="linkedin">
+                </a>
+                <a href="http://twitter.com/share?url=https://www.nvipani.com/aboutus.html" target="_blank">
+                    <img src="img/twitter-logo.svg" alt="twitter">
+                </a>
+            </div>
+        </div>-->
+    <h4 class="font-weight-bold col-md-12 mt-3 m-0 pl-0">Latest news:</h4>
+    <hr class="nvc-heading-underline  ml-0"></hr>
+    <ul class="nav nav-tabs">
+        <li class="active nvc-remove-news"><a href="news_new_hire_Kondaiah.html">
+            <div class="row mb-3 nvc-news-list">
+                <div class="col-4 pl-0">
+                    <img src="img/aboutus/konds_Profile.JPG" alt="news" class="img-thumbnail">
+                </div>
+                <div class="col-8 pl-0">
+                    <p class="mb-0">nVipani welcomes Kondaiah Bommisetty as CTO</p>
+                    <p class="mb-0 mt-3"><small>November 15, 2018</small></p>
+                </div>
+            </div>
+        </a></li>
+        <li class="nvc-remove-news3"> <a href="news_new_hire_Venkat.html">
+            <div class="row mb-3 nvc-news-list">
+                <div class="col-4 pl-0">
+                    <img src="img/aboutus/Venkat Latest 500X500.png" alt="news" class="img-thumbnail">
+                </div>
+                <div class="col-8 pl-0">
+                    <p class="mb-0">nVipani welcomes Venkat Reddy Chintalapudi as Product VP</p>
+                    <p class="mb-0 mt-3"><small> November 15, 2018</small></p>
+                </div>
+            </div>
+        </a></li>
+
+        <li class="nvc-remove-news2">  <a href="news_RISE_conference.html">
+        <div class="row mb-3 nvc-news-list">
+                <div class="col-4 pl-0">
+                    <img src="img/aboutus/rise.png" alt="news" class="img-thumbnail">
+                </div>
+                <div class="col-8 pl-0">
+                    <p class="mb-0">Bengaluru-based startup nVipani brings valUchain™ to RISE 2018.</p>
+                    <p class="mb-0 mt-3"><small>June 27, 2018</small></p>
+                </div>
+            </div>
+        </a></li>
+    </ul>
+</div>
+<!---->
+
+<!-------------- footer for the website -------->
+<div class="footer row align-items-center p-2 nvc-fixed-bottom-0">
+    <div class="logo d-block d-md-none col-md-6 col-12">
+        <a href="index.html"><img src="img/vipani_logo.png" alt="logo" ></a>
+    </div>
+    <div class=" signature col-md-6 col-12 order-1 order-md-0 text-md-left text-center pt-3 pb-1 pt-md-0 pb-md-0">
+        <h6 class="m-0">&copy; 2018 nVipani Technology Solutions Private Limited. All rights reserved.</h6>
+    </div>
+    <div class="brand col-md-6 col-12  justify-content-md-end justify-content-center d-flex order-0 order-md-1 pt-3 pt-md-0">
+        <a href="https://www.facebook.com/nvipanitechnology/" target="_blank"><img src="img/facebook-letter-logo.svg" alt="facebook"></a>
+        <a href="https://www.linkedin.com/company/nvipanitechnology/" target="_blank"><img src="img/linkedin-logo.svg" alt="linkedin"></a>
+        <a href="https://twitter.com/Info_nVipani" target="_blank"><img src="img/twitter-logo.svg" alt="twitter"></a>
+        <a href="https://www.youtube.com/channel/UClJR8cbNeLUjI3YTYHbrGsw" target="_blank"><img src="img/youtube-play-button.svg" alt="youtube"></a>
+    </div>
+</div>
+<!------------- footer for the website -------->
+<!-- Java script for boot strap ----->
+<script src="js/jquery-3.3.1.js" type="text/javascript"></script>
+<script src="js/popper.js" type="text/javascript"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<!------ java script main content ----->
+<script type="text/javascript" src="js/main.js"></script>
+</body>
